@@ -65,6 +65,7 @@ let Content =({total}) =>{
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <div className="col-md-12">
                     <div className="text-center">
+                        <button className="btn btn-primary">Add</button>
                         <button className="btn btn-outline-danger" onClick={handleClick}>{counter} Guests online</button>
                     </div>
                         {loader && <div className="d-flex justify-content-center">
